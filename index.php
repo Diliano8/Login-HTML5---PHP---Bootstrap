@@ -14,6 +14,13 @@
 <!doctype html>
 <html>
 <head>
+<p>Bem-Vindo, para acessar o conteúdo você precisa se autenticar</p>
+       <div class="control-group">
+           <label class="control-label" for="inputEmail">Email</label>
+            <div class="controls">
+                <input type="text" id="inputEmail" placeholder="Email">
+             </div>
+       </div>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
