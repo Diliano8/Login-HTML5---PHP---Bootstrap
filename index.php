@@ -12,6 +12,28 @@
 		}
 ?>
 <!doctype html>
+<p>Bem-Vindo, para acessar o conteúdo você precisa se autenticar</p>
+       <div class="control-group">
+           <label class="control-label" for="inputEmail">Email</label>
+            <div class="controls">
+                <input type="text" id="inputEmail" placeholder="Email">
+             </div>
+       </div>
+       <div class="control-group">
+          <label class="control-label" for="inputPassword">Senha</label>
+             <div class="controls">
+                <input type="password" id="inputPassword" placeholder="Password">
+             </div>
+       </div>
+       <div class="control-group">
+           <div class="controls">
+             <label class="checkbox">
+               <input type="checkbox"> lembrar-me
+             </label>
+             <button type="submit" class="btn btn-small btn-primary">Login</button>
+             <button type="submit" class="btn btn-danger">Cancela</button>
+           </div>
+        </div>
 <html>
 <head>
     <meta charset="utf-8">
